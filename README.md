@@ -38,7 +38,7 @@ dmgen4cmd -p projectname
 通用字符串国际化生成 cmake
 ```
 ```
-dmgen4error -p projectname
+dmgen4error -x errorcode.xat
 ```
 
 ## 2.4. dmgen4gtest 通用gtest框架生成
