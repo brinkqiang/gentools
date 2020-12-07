@@ -12,7 +12,7 @@ Copyright (c) 2013-2018 brinkqiang (brink.qiang@gmail.com)
   - [2.3. dmgen4error 通用字符串国际化生成](#23-dmgen4error-通用字符串国际化生成)
   - [2.4. dmgen4gtest 通用gtest框架生成](#24-dmgen4gtest-通用gtest框架生成)
   - [2.5. dmgen4luamodule 通用C++ lua模块生成](#25-dmgen4luamodule-通用c-lua模块生成)
-  - [2.6. dmgen4module 通用makefile生成](#26-dmgen4module-通用makefile生成)
+  - [2.6. dmgen4makefile 通用makefile生成](#26-dmgen4makefile-通用makefile生成)
 - [3. Thanks](#3-thanks)
 
 <!-- /TOC -->
@@ -57,19 +57,19 @@ dmgen4gtest -p projectname
 dmgen4luamodule -p projectname
 ```
 
-## 2.6. dmgen4module 通用makefile生成
+## 2.6. dmgen4makefile 通用makefile生成
 ```
 通用makefile exe版生成
 ```
 ```
-dmgen4module -p projectname
+dmgen4makefile -p projectname
 ```
 
 ```
 通用makefile生成 lib版生成
 ```
 ```
-dmgen4module -p projectname -t lib
+dmgen4makefile -p projectname -t lib
 ```
 
 # 3. Thanks
